@@ -18,3 +18,10 @@ One solution for this is running multiple virtual machines on one single physica
 Containers overcome the problems we had in virtualization through VMs. We need to create an image of an application and the dependencies needed to run it. The image can then later be run in any number of containers and in any platforms. This reduces the overall time. With containers, all the possible mismatches between different software versions and operating systems are canceled out. It enables the developers to use whichever programming language and software tool they want to, if they can run it without problems inside the container. This combined with the deployment process, makes the whole ordeal agile, highly scalable and most importantly, fast.
 
 The field of Development and Operations (DevOps) benefit greatly from containerization in the form of automating the deployment. Compared to normal virtual machines, containerized platforms require fewer configurations and can be deployed quickly with the CI/CD.
+Dockerfile
+A Dockerfile has all the instructions on how to build the final image for deployment and distribution.
+
+Dockerimage
+Dockerimage is the immutable snapshot of the software with its runtime environment. This can be run in container at any time later.
+
+
