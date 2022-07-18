@@ -24,4 +24,36 @@ A Dockerfile has all the instructions on how to build the final image for deploy
 Dockerimage
 Dockerimage is the immutable snapshot of the software with its runtime environment. This can be run in container at any time later.
 
+Virtual Machines vs Containers
+virtual-machines-vs-containers-0
+Virtual Machines
 
+Containers
+
+Virtual Machine is a Hardware virtualization.
+
+Container is an operating system (OS) virtualization.
+
+Virtual machines needs full operating system and all included software that come with them.
+
+Containers are built to contain only the necessary libraries and dependencies inside them.
+
+Deployment takes significantly more time.
+
+Deployment takes only few seconds.
+
+When it is needed host application in new server, deployment to virtual machine takes more time as it needs time to setup the virtual machine and all necessary software. Virtual machines are more bulky and slow to set up and configure.
+
+Compared to virtual machines, containers are reproducible standardized environments that follow a certain ideology, create once – use many. After a container environment with the Dockerfile is manually crafted, it is available to be utilized when needed.
+
+More cost. It needs to invest on operating system and all necessary softwares.
+
+Cheaper and very less or no cost.  Docker is an open-source container.
+
+Virtual machines take several gigabytes of storage space. Each virtual machine instance contains a full copy of an operating system and all the dependencies needed to run
+
+Containers are typically only megabytes in size.
+
+Virtual machines take several minutes to boot up.
+
+Dockers boot up virtually instantly.
