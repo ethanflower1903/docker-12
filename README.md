@@ -57,3 +57,12 @@ Containers are typically only megabytes in size.
 Virtual machines take several minutes to boot up.
 
 Dockers boot up virtually instantly.
+How to install docker on Windows
+In this tutorial you will learn to install docker in windows OS. Installation is easy as installing any other software by pressing Next button in multiple steps. Although we have provided the steps to install and setup docker, follow the below steps:
+
+Step 1  
+Download docker installable software from https://download.docker.com/win/stable/Docker%20Desktop%20Installer.exe
+
+Step 2
+Once the Docker Desktop Installer.exe file is downloaded, double click on exe file. The following window opens on the screen, Select both the options (Enable Hyper-V Windows Features, Add shortcut to desktop), the click Ok.
+
