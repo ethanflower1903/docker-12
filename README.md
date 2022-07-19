@@ -66,3 +66,10 @@ Download docker installable software from https://download.docker.com/win/stable
 Step 2
 Once the Docker Desktop Installer.exe file is downloaded, double click on exe file. The following window opens on the screen, Select both the options (Enable Hyper-V Windows Features, Add shortcut to desktop), the click Ok.
 
+It takes several minutes to complete the installation. Once installation is complete, it ask to restart Windows. Please restart your system to complete the installation.
+Step 3
+Verify the docker installation. After the successful installation, docker shortcut icon will appear on the screen
+From system tray verify the docker running status
+To verify that the docker is successfully installed, execute the below command from command prompt, enter the command and press enter key.
+
+docker --version
