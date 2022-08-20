@@ -54,7 +54,7 @@ Virtual machines take several gigabytes of storage space. Each virtual machine i
 
 Containers are typically only megabytes in size.
 
-Virtual machines take several minutes to boot up....
+Virtual machines take several minutes to boot up...
 
 Dockers boot up virtually instantly.
 How to install docker on Windows
